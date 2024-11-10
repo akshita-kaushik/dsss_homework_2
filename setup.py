@@ -8,8 +8,8 @@ setup(
         # Specify dependencies here or leave it to load from requirements.txt
     ],
     # Metadata
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Akshita Kaushik",
+    author_email="kaushikakshita0@gmail.com",
     description="A math quiz package for educational purposes.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
