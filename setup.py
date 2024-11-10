@@ -13,11 +13,16 @@ setup(
     description="A math quiz package for educational purposes.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/YOUR_GITHUB_USERNAME/dsss_homework_2",
+    url="https://github.com/akshita-kaushik/dsss_homework_2",  # Replace with your actual GitHub URL
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.6",
+    entry_points={
+        'console_scripts': [
+            'math_quiz=math_quiz.math_quiz:main',  # Run the 'main' function from math_quiz.py
+        ],
+    },
 )
